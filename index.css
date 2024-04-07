@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:cursive;
+}
+
+body{
+    background-color: #EDFFD9;
+    text-align: center;
+}
+
+h1{
+    color: #3A3042;
+    font-size: 30px;
+    margin: 15px;
+    margin-top: 30px;
+    font-weight:800;
+    text-decoration:underline;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.p1{
+    text-align: left;
+    color: #3A3042;
+    font-size: 30px;
+    margin: 10px;
+    margin-top: 10px;
+    font-weight:800;
+}
+.p2{
+    text-align: right;
+    color: #3A3042;
+    font-size: 30px;
+    margin: 10px;
+    margin-top: 10px;
+    font-weight:800;
+}
+
+.container{
+    height: 60vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.game{
+    height: 50vmin;
+    width: 50vmin;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box{
+    font-size: 10vmin;
+    color: #3A3042;
+    background-color: #FF784F;
+    height: 15vmin;
+    width: 15vmin;
+    border-radius: 0.4rem;
+    border-color:#3A3042;
+    box-shadow: 0 0 0.8rem rgba(0,0,0,0.5);
+}
+
+.resetButton{
+    font-size: 4vmin;
+    color: #3A3042;
+    background-color: #FFE19C;
+    padding: 10px;
+    border-radius: 0.4rem;
+    border-color:#3A3042;
+    box-shadow: 0 0 0.8rem rgba(0,0,0,0.5);
+}
